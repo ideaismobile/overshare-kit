@@ -38,6 +38,7 @@ NSString * const OSKActivityType_URLScheme_1Password_Browser = @"OSKActivityType
 NSString * const OSKActivityType_URLScheme_Chrome = @"OSKActivityType_URLScheme_Chrome";
 NSString * const OSKActivityType_URLScheme_Omnifocus = @"OSKActivityType_URLScheme_Omnifocus";
 NSString * const OSKActivityType_URLScheme_Things = @"OSKActivityType_URLScheme_Things";
+NSString * const OSKActivityType_URLScheme_Whatsapp = @"OSKActivityType_URLScheme_Whatsapp";
 NSString * const OSKActivityType_SDK_Pocket = @"OSKActivityType_SDK_Pocket";
 
 @interface OSKActivity ()

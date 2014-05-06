@@ -228,6 +228,11 @@
 		7FEE7633181ED83D000F684A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEE7632181ED83D000F684A /* Foundation.framework */; };
 		7FEE7635181ED83D000F684A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEE7634181ED83D000F684A /* CoreGraphics.framework */; };
 		7FEE7637181ED83D000F684A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEE7636181ED83D000F684A /* UIKit.framework */; };
+		F2DDB18419196AD00051DAF8 /* OSKWhastappActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDB18319196AD00051DAF8 /* OSKWhastappActivity.m */; };
+		F2DDB189191970110051DAF8 /* whatsapp-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DDB185191970110051DAF8 /* whatsapp-76@2x.png */; };
+		F2DDB18A191970110051DAF8 /* whatsapp-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DDB186191970110051DAF8 /* whatsapp-60@2x.png */; };
+		F2DDB18B191970110051DAF8 /* whatsapp-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DDB187191970110051DAF8 /* whatsapp-60.png */; };
+		F2DDB18C191970110051DAF8 /* whatsapp-76.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DDB188191970110051DAF8 /* whatsapp-76.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -548,6 +553,12 @@
 		7FEE7636181ED83D000F684A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FEE764B181ED83D000F684A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F6372A9072146CEA4538CE3 /* libPods-Overshare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Overshare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DDB18219196AD00051DAF8 /* OSKWhastappActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKWhastappActivity.h; sourceTree = "<group>"; };
+		F2DDB18319196AD00051DAF8 /* OSKWhastappActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKWhastappActivity.m; sourceTree = "<group>"; };
+		F2DDB185191970110051DAF8 /* whatsapp-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-76@2x.png"; sourceTree = "<group>"; };
+		F2DDB186191970110051DAF8 /* whatsapp-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-60@2x.png"; sourceTree = "<group>"; };
+		F2DDB187191970110051DAF8 /* whatsapp-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-60.png"; sourceTree = "<group>"; };
+		F2DDB188191970110051DAF8 /* whatsapp-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-76.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -722,6 +733,10 @@
 				7279895F187DB97100966C66 /* Things-Icon-60@2x.png */,
 				72798960187DB97100966C66 /* Things-Icon-76.png */,
 				72798961187DB97100966C66 /* Things-Icon-76@2x.png */,
+				F2DDB185191970110051DAF8 /* whatsapp-76@2x.png */,
+				F2DDB186191970110051DAF8 /* whatsapp-60@2x.png */,
+				F2DDB187191970110051DAF8 /* whatsapp-60.png */,
+				F2DDB188191970110051DAF8 /* whatsapp-76.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -776,6 +791,7 @@
 				72798AEC187DBCE800966C66 /* SMS */,
 				72798AEB187DBCD400966C66 /* Things */,
 				72798AEA187DBCB800966C66 /* Twitter */,
+				F2DDB18119196A9F0051DAF8 /* Whatsapp */,
 			);
 			name = "Activities (Subclasses)";
 			sourceTree = "<group>";
@@ -1258,6 +1274,15 @@
 			path = Overshare;
 			sourceTree = "<group>";
 		};
+		F2DDB18119196A9F0051DAF8 /* Whatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDB18219196AD00051DAF8 /* OSKWhastappActivity.h */,
+				F2DDB18319196AD00051DAF8 /* OSKWhastappActivity.m */,
+			);
+			name = Whatsapp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1387,16 +1412,19 @@
 				72798A6C187DB97300966C66 /* osk-photosIcon-60@2x.png in Resources */,
 				72798A38187DB97300966C66 /* Instapaper-Icon-76@2x.png in Resources */,
 				72798A3F187DB97300966C66 /* osk-appDotNetIcon-29.png in Resources */,
+				F2DDB18C191970110051DAF8 /* whatsapp-76.png in Resources */,
 				72798A7D187DB97300966C66 /* osk-twitterIcon-60@2x.png in Resources */,
 				72798A64187DB97300966C66 /* osk-messagesIcon-76.png in Resources */,
 				72798A68187DB97300966C66 /* osk-navbarButton-highlighted.png in Resources */,
 				72798A3E187DB97300966C66 /* osk-airDropIcon-76@2x.png in Resources */,
 				72798A63187DB97300966C66 /* osk-messagesIcon-60@2x.png in Resources */,
+				F2DDB189191970110051DAF8 /* whatsapp-76@2x.png in Resources */,
 				72798A86187DB97300966C66 /* Riposte-Icon-76.png in Resources */,
 				72798A2E187DB97300966C66 /* Chrome-Icon-29.png in Resources */,
 				72798A47187DB97300966C66 /* osk-copyIcon-purple-60@2x.png in Resources */,
 				72798A52187DB97300966C66 /* osk-flickrIcon-76.png in Resources */,
 				727988F2187DB91700966C66 /* Images.xcassets in Resources */,
+				F2DDB18B191970110051DAF8 /* whatsapp-60.png in Resources */,
 				72798A88187DB97300966C66 /* Things-Icon-60@2x.png in Resources */,
 				72798A7A187DB97300966C66 /* osk-safariIcon-76.png in Resources */,
 				72798A6F187DB97300966C66 /* osk-pinboardIcon-29.png in Resources */,
@@ -1415,6 +1443,7 @@
 				727988EE187DB91700966C66 /* InfoPlist.strings in Resources */,
 				727988EF187DB91700966C66 /* Icon-60@2x.png in Resources */,
 				72798A82187DB97300966C66 /* Pocket-Icon-60@2x.png in Resources */,
+				F2DDB18A191970110051DAF8 /* whatsapp-60@2x.png in Resources */,
 				72798A50187DB97300966C66 /* osk-facebookIcon-76@2x.png in Resources */,
 				72798A4B187DB97300966C66 /* osk-copyIcon-yellow-60@2x.png in Resources */,
 				72798A46187DB97300966C66 /* osk-copyIcon-purple-29@2x.png in Resources */,
@@ -1514,6 +1543,7 @@
 				72798AA3187DB97300966C66 /* OSKActivitySheetViewController.m in Sources */,
 				72798AB7187DB97300966C66 /* OSKFileManager.m in Sources */,
 				72798AAE187DB97300966C66 /* OSKBorderedButton.m in Sources */,
+				F2DDB18419196AD00051DAF8 /* OSKWhastappActivity.m in Sources */,
 				72798A99187DB97300966C66 /* OSKActionSheet.m in Sources */,
 				72798AC0187DB97300966C66 /* OSKManagedAccountStore.m in Sources */,
 				72798AE1187DB97300966C66 /* OSKWebViewController.m in Sources */,
@@ -1725,6 +1755,7 @@
 				7278E40D1892AC6800D36676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FEE762A181ED83D000F684A /* Build configuration list for PBXProject "Overshare" */ = {
 			isa = XCConfigurationList;

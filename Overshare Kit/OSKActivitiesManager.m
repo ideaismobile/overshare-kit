@@ -33,6 +33,7 @@
 #import "OSKSMSActivity.h"
 #import "OSKThingsActivity.h"
 #import "OSKTwitterActivity.h"
+#import "OSKWhastappActivity.h"
 
 #if DEBUG == 1
 // DEVELOPMENT KEYS ONLY, YOUR APP SHOULD SUPPLY YOUR APP CREDENTIALS VIA THE CUSTOMIZATIONS DELEGATE.
@@ -418,6 +419,13 @@ static NSString * OSKActivitiesManagerPersistentExclusionsKey = @"OSKActivitiesM
                                                         requireOperations:requireOperations
                                                                      item:item];
     if (onePassword) { [activities addObject:onePassword]; }
+    
+    OSKWhastappActivity *whatswapp = [self validActivityForType:[OSKWhastappActivity activityType]
+                                                          class:[OSKWhastappActivity class]
+                                                  excludedTypes:excludedActivityTypes
+                                              requireOperations:requireOperations
+                                                           item:item];
+    if (whatswapp) { [activities addObject:whatswapp]; }
     
     return activities;
 }

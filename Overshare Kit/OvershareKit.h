@@ -49,3 +49,4 @@
 #import "OSKSystemAccountStore.h"
 #import "OSKThingsActivity.h"
 #import "OSKTwitterActivity.h"
+#import "OSKWhastappActivity.h"
