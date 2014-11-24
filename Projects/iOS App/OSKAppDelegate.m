@@ -8,18 +8,12 @@
 
 #import "OSKAppDelegate.h"
 
-#import "OSKADNLoginManager.h"
-#import "PocketAPI.h"
-
 #import "SampleTimelineViewController.h"
 
 @implementation OSKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-#warning  You must replace this key with your own app's key!
-    [[PocketAPI sharedAPI] setConsumerKey:@"19568-eab36ebc89e751893a754475"];
-    
     UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self setWindow:window];
     
@@ -62,16 +56,7 @@
 #warning Don't forget to override this method so that both Pocket and App.net authentication have the opportunity to respond!
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     BOOL success = NO;
-    if ([[OSKADNLoginManager sharedInstance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation]) {
-        success = YES;
-    }
-    else if ([[PocketAPI sharedAPI] handleOpenURL:url]){
-        success = YES;
-    }
-    else {
-        // if you handle your own custom url-schemes, do it here
-        // success = whatever;
-    }
+    
     return success;
 }
 

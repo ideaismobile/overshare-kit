@@ -22,8 +22,5 @@ Pod::Spec.new do |s|
 #  }
   s.resources    = ['Overshare Kit/Images/*', 'Overshare Kit/*.xib', 'Overshare Kit/OSKLocalizations.bundle']
 
-  
-  s.dependency 'ADNLogin'
-  s.dependency 'PocketAPI'
   s.dependency 'Facebook-iOS-SDK'
 end

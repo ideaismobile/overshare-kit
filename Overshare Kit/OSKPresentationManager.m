@@ -17,7 +17,6 @@
 #import "OSKActivitiesManager.h"
 #import "OSKActivitySheetViewController.h"
 #import "OSKAirDropViewController.h"
-#import "OSKAppDotNetAuthenticationViewController.h"
 #import "OSKLogger.h"
 #import "OSKMicroblogPublishingViewController.h"
 #import "OSKPublishingViewController.h"
@@ -870,11 +869,6 @@ willRepositionPopoverToRect:(inout CGRect *)rect
     if (viewController == nil) {
         if ([activity.class authenticationViewControllerType] == OSKManagedAccountAuthenticationViewControllerType_DefaultUsernamePasswordViewController) {
             viewController = [[OSKUsernamePasswordViewController alloc] initWithStyle:UITableViewStyleGrouped];
-        }
-        else if ([[activity.class activityType] isEqualToString:OSKActivityType_API_AppDotNet]) {
-            OSKActivitiesManager *manager = [OSKActivitiesManager sharedInstance];
-            OSKApplicationCredential *appCredential = [manager applicationCredentialForActivityType:[activity.class activityType]];
-            viewController = [[OSKAppDotNetAuthenticationViewController alloc] initWithApplicationCredential:appCredential];
         }
     }
     return viewController;

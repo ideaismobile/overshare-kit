@@ -12,7 +12,6 @@
 #import "OSKActivity.h"
 #import "OSKAccountChooserViewController.h"
 #import "UIColor+OSKUtility.h"
-#import "OSKPocketAccountViewController.h"
 #import "OSKAccountTypeCell.h"
 #import "OSKActivityToggleCell.h"
 #import "OSKLocalizedStrings.h"
@@ -20,7 +19,6 @@
 #import "OSK1PasswordSearchActivity.h"
 #import "OSK1PasswordBrowserActivity.h"
 #import "OSKAirDropActivity.h"
-#import "OSKAppDotNetActivity.h"
 #import "OSKChromeActivity.h"
 #import "OSKCopyToPasteboardActivity.h"
 #import "OSKEmailActivity.h"
@@ -28,7 +26,6 @@
 #import "OSKInstapaperActivity.h"
 #import "OSKOmnifocusActivity.h"
 #import "OSKPinboardActivity.h"
-#import "OSKPocketActivity.h"
 #import "OSKReadabilityActivity.h"
 #import "OSKSafariActivity.h"
 #import "OSKSMSActivity.h"
@@ -105,9 +102,7 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
     NSMutableArray *classes = [[NSMutableArray alloc] init];
     
     NSMutableSet *defaultClasses = [NSMutableSet set];
-    [defaultClasses addObject:[OSKAppDotNetActivity class]];
     [defaultClasses addObject:[OSKInstapaperActivity class]];
-    [defaultClasses addObject:[OSKPocketActivity class]];
     [defaultClasses addObject:[OSKReadabilityActivity class]];
     [defaultClasses addObject:[OSKPinboardActivity class]];
     
@@ -144,9 +139,7 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
     NSMutableArray *classes = [[NSMutableArray alloc] init];
     
     NSMutableSet *defaultClasses = [NSMutableSet set];
-    [defaultClasses addObject:[OSKAppDotNetActivity class]];
     [defaultClasses addObject:[OSKInstapaperActivity class]];
-    [defaultClasses addObject:[OSKPocketActivity class]];
     [defaultClasses addObject:[OSKReadabilityActivity class]];
     [defaultClasses addObject:[OSKPinboardActivity class]];
     [defaultClasses addObject:[OSKTwitterActivity class]];
@@ -281,8 +274,7 @@ static NSString * OSKAccountManagementHeaderViewIdentifier = @"OSKAccountManagem
             OSKAccountChooserViewController *chooser = [[OSKAccountChooserViewController alloc] initForManagingAccountsOfActivityClass:activityClass];
             [self.navigationController pushViewController:chooser animated:YES];
         } else {
-            OSKPocketAccountViewController *pocketVC = [[OSKPocketAccountViewController alloc] initWithStyle:UITableViewStyleGrouped];
-            [self.navigationController pushViewController:pocketVC animated:YES];
+            
         }
     }
 }

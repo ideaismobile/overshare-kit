@@ -62,11 +62,6 @@
 		72798A3C187DB97300966C66 /* osk-airDropIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798913187DB97100966C66 /* osk-airDropIcon-60@2x.png */; };
 		72798A3D187DB97300966C66 /* osk-airDropIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798914187DB97100966C66 /* osk-airDropIcon-76.png */; };
 		72798A3E187DB97300966C66 /* osk-airDropIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798915187DB97100966C66 /* osk-airDropIcon-76@2x.png */; };
-		72798A3F187DB97300966C66 /* osk-appDotNetIcon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798916187DB97100966C66 /* osk-appDotNetIcon-29.png */; };
-		72798A40187DB97300966C66 /* osk-appDotNetIcon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798917187DB97100966C66 /* osk-appDotNetIcon-29@2x.png */; };
-		72798A41187DB97300966C66 /* osk-appDotNetIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798918187DB97100966C66 /* osk-appDotNetIcon-60@2x.png */; };
-		72798A42187DB97300966C66 /* osk-appDotNetIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798919187DB97100966C66 /* osk-appDotNetIcon-76.png */; };
-		72798A43187DB97300966C66 /* osk-appDotNetIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279891A187DB97100966C66 /* osk-appDotNetIcon-76@2x.png */; };
 		72798A44187DB97300966C66 /* osk-appStoreIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279891B187DB97100966C66 /* osk-appStoreIcon-76.png */; };
 		72798A45187DB97300966C66 /* osk-appStoreIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279891C187DB97100966C66 /* osk-appStoreIcon-76@2x.png */; };
 		72798A46187DB97300966C66 /* osk-copyIcon-purple-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279891D187DB97100966C66 /* osk-copyIcon-purple-29@2x.png */; };
@@ -127,11 +122,6 @@
 		72798A7D187DB97300966C66 /* osk-twitterIcon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798954187DB97100966C66 /* osk-twitterIcon-60@2x.png */; };
 		72798A7E187DB97300966C66 /* osk-twitterIcon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798955187DB97100966C66 /* osk-twitterIcon-76.png */; };
 		72798A7F187DB97300966C66 /* osk-twitterIcon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798956187DB97100966C66 /* osk-twitterIcon-76@2x.png */; };
-		72798A80187DB97300966C66 /* Pocket-Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798957187DB97100966C66 /* Pocket-Icon-29.png */; };
-		72798A81187DB97300966C66 /* Pocket-Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798958187DB97100966C66 /* Pocket-Icon-29@2x.png */; };
-		72798A82187DB97300966C66 /* Pocket-Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72798959187DB97100966C66 /* Pocket-Icon-60@2x.png */; };
-		72798A83187DB97300966C66 /* Pocket-Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279895A187DB97100966C66 /* Pocket-Icon-76.png */; };
-		72798A84187DB97300966C66 /* Pocket-Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279895B187DB97100966C66 /* Pocket-Icon-76@2x.png */; };
 		72798A85187DB97300966C66 /* Riposte-Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279895C187DB97100966C66 /* Riposte-Icon-60@2x.png */; };
 		72798A86187DB97300966C66 /* Riposte-Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279895D187DB97100966C66 /* Riposte-Icon-76.png */; };
 		72798A87187DB97300966C66 /* Riposte-Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7279895E187DB97100966C66 /* Riposte-Icon-76@2x.png */; };
@@ -164,13 +154,9 @@
 		72798AA3187DB97300966C66 /* OSKActivitySheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72798998187DB97100966C66 /* OSKActivitySheetViewController.m */; };
 		72798AA4187DB97300966C66 /* OSKActivitySheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72798999187DB97100966C66 /* OSKActivitySheetViewController.xib */; };
 		72798AA5187DB97300966C66 /* OSKActivityToggleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7279899B187DB97100966C66 /* OSKActivityToggleCell.m */; };
-		72798AA6187DB97300966C66 /* OSKADNLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7279899D187DB97100966C66 /* OSKADNLoginManager.m */; };
 		72798AA7187DB97300966C66 /* OSKAirDropActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7279899F187DB97100966C66 /* OSKAirDropActivity.m */; };
 		72798AA8187DB97300966C66 /* OSKAirDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989A1187DB97100966C66 /* OSKAirDropViewController.m */; };
 		72798AA9187DB97300966C66 /* OSKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989A3187DB97100966C66 /* OSKAlertView.m */; };
-		72798AAA187DB97300966C66 /* OSKAppDotNetActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989A5187DB97100966C66 /* OSKAppDotNetActivity.m */; };
-		72798AAB187DB97300966C66 /* OSKAppDotNetAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989A7187DB97100966C66 /* OSKAppDotNetAuthenticationViewController.m */; };
-		72798AAC187DB97300966C66 /* OSKAppDotNetUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989A9187DB97100966C66 /* OSKAppDotNetUtility.m */; };
 		72798AAD187DB97300966C66 /* OSKApplicationCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989AB187DB97100966C66 /* OSKApplicationCredential.m */; };
 		72798AAE187DB97300966C66 /* OSKBorderedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989AF187DB97100966C66 /* OSKBorderedButton.m */; };
 		72798AAF187DB97300966C66 /* OSKChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989B1187DB97100966C66 /* OSKChromeActivity.m */; };
@@ -196,8 +182,6 @@
 		72798AC7187DB97300966C66 /* OSKPagedHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989E2187DB97200966C66 /* OSKPagedHorizontalLayout.m */; };
 		72798AC8187DB97300966C66 /* OSKPinboardActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989E4187DB97200966C66 /* OSKPinboardActivity.m */; };
 		72798AC9187DB97300966C66 /* OSKPinboardUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989E6187DB97200966C66 /* OSKPinboardUtility.m */; };
-		72798ACA187DB97300966C66 /* OSKPocketAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989E8187DB97200966C66 /* OSKPocketAccountViewController.m */; };
-		72798ACB187DB97300966C66 /* OSKPocketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989EA187DB97200966C66 /* OSKPocketActivity.m */; };
 		72798ACC187DB97300966C66 /* OSKPresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989EE187DB97200966C66 /* OSKPresentationManager.m */; };
 		72798ACD187DB97300966C66 /* OSKReadabilityActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989F5187DB97200966C66 /* OSKReadabilityActivity.m */; };
 		72798ACE187DB97300966C66 /* OSKReadabilityUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 727989F7187DB97200966C66 /* OSKReadabilityUtility.m */; };
@@ -236,7 +220,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6649A76ED6254C548DFF6344 /* Pods-Overshare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overshare.xcconfig"; path = "Pods/Pods-Overshare.xcconfig"; sourceTree = "<group>"; };
+		2C17D66F19B6AC83A6350DFF /* Pods-Overshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overshare.release.xcconfig"; path = "Pods/Target Support Files/Pods-Overshare/Pods-Overshare.release.xcconfig"; sourceTree = "<group>"; };
 		72670B5418906CC100056736 /* OSKSocialComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKSocialComposeViewController.h; sourceTree = "<group>"; };
 		72670B5518906CC100056736 /* OSKSocialComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKSocialComposeViewController.m; sourceTree = "<group>"; };
 		727988D1187DB70F00966C66 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -283,11 +267,6 @@
 		72798913187DB97100966C66 /* osk-airDropIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-airDropIcon-60@2x.png"; sourceTree = "<group>"; };
 		72798914187DB97100966C66 /* osk-airDropIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-airDropIcon-76.png"; sourceTree = "<group>"; };
 		72798915187DB97100966C66 /* osk-airDropIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-airDropIcon-76@2x.png"; sourceTree = "<group>"; };
-		72798916187DB97100966C66 /* osk-appDotNetIcon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appDotNetIcon-29.png"; sourceTree = "<group>"; };
-		72798917187DB97100966C66 /* osk-appDotNetIcon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appDotNetIcon-29@2x.png"; sourceTree = "<group>"; };
-		72798918187DB97100966C66 /* osk-appDotNetIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appDotNetIcon-60@2x.png"; sourceTree = "<group>"; };
-		72798919187DB97100966C66 /* osk-appDotNetIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appDotNetIcon-76.png"; sourceTree = "<group>"; };
-		7279891A187DB97100966C66 /* osk-appDotNetIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appDotNetIcon-76@2x.png"; sourceTree = "<group>"; };
 		7279891B187DB97100966C66 /* osk-appStoreIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appStoreIcon-76.png"; sourceTree = "<group>"; };
 		7279891C187DB97100966C66 /* osk-appStoreIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-appStoreIcon-76@2x.png"; sourceTree = "<group>"; };
 		7279891D187DB97100966C66 /* osk-copyIcon-purple-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-copyIcon-purple-29@2x.png"; sourceTree = "<group>"; };
@@ -348,11 +327,6 @@
 		72798954187DB97100966C66 /* osk-twitterIcon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-twitterIcon-60@2x.png"; sourceTree = "<group>"; };
 		72798955187DB97100966C66 /* osk-twitterIcon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-twitterIcon-76.png"; sourceTree = "<group>"; };
 		72798956187DB97100966C66 /* osk-twitterIcon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "osk-twitterIcon-76@2x.png"; sourceTree = "<group>"; };
-		72798957187DB97100966C66 /* Pocket-Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket-Icon-29.png"; sourceTree = "<group>"; };
-		72798958187DB97100966C66 /* Pocket-Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket-Icon-29@2x.png"; sourceTree = "<group>"; };
-		72798959187DB97100966C66 /* Pocket-Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket-Icon-60@2x.png"; sourceTree = "<group>"; };
-		7279895A187DB97100966C66 /* Pocket-Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket-Icon-76.png"; sourceTree = "<group>"; };
-		7279895B187DB97100966C66 /* Pocket-Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pocket-Icon-76@2x.png"; sourceTree = "<group>"; };
 		7279895C187DB97100966C66 /* Riposte-Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Riposte-Icon-60@2x.png"; sourceTree = "<group>"; };
 		7279895D187DB97100966C66 /* Riposte-Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Riposte-Icon-76.png"; sourceTree = "<group>"; };
 		7279895E187DB97100966C66 /* Riposte-Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Riposte-Icon-76@2x.png"; sourceTree = "<group>"; };
@@ -413,20 +387,12 @@
 		72798999187DB97100966C66 /* OSKActivitySheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSKActivitySheetViewController.xib; sourceTree = "<group>"; };
 		7279899A187DB97100966C66 /* OSKActivityToggleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKActivityToggleCell.h; sourceTree = "<group>"; };
 		7279899B187DB97100966C66 /* OSKActivityToggleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKActivityToggleCell.m; sourceTree = "<group>"; };
-		7279899C187DB97100966C66 /* OSKADNLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKADNLoginManager.h; sourceTree = "<group>"; };
-		7279899D187DB97100966C66 /* OSKADNLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKADNLoginManager.m; sourceTree = "<group>"; };
 		7279899E187DB97100966C66 /* OSKAirDropActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAirDropActivity.h; sourceTree = "<group>"; };
 		7279899F187DB97100966C66 /* OSKAirDropActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAirDropActivity.m; sourceTree = "<group>"; };
 		727989A0187DB97100966C66 /* OSKAirDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAirDropViewController.h; sourceTree = "<group>"; };
 		727989A1187DB97100966C66 /* OSKAirDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAirDropViewController.m; sourceTree = "<group>"; };
 		727989A2187DB97100966C66 /* OSKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAlertView.h; sourceTree = "<group>"; };
 		727989A3187DB97100966C66 /* OSKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAlertView.m; sourceTree = "<group>"; };
-		727989A4187DB97100966C66 /* OSKAppDotNetActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAppDotNetActivity.h; sourceTree = "<group>"; };
-		727989A5187DB97100966C66 /* OSKAppDotNetActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAppDotNetActivity.m; sourceTree = "<group>"; };
-		727989A6187DB97100966C66 /* OSKAppDotNetAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAppDotNetAuthenticationViewController.h; sourceTree = "<group>"; };
-		727989A7187DB97100966C66 /* OSKAppDotNetAuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAppDotNetAuthenticationViewController.m; sourceTree = "<group>"; };
-		727989A8187DB97100966C66 /* OSKAppDotNetUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAppDotNetUtility.h; sourceTree = "<group>"; };
-		727989A9187DB97100966C66 /* OSKAppDotNetUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKAppDotNetUtility.m; sourceTree = "<group>"; };
 		727989AA187DB97100966C66 /* OSKApplicationCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKApplicationCredential.h; sourceTree = "<group>"; };
 		727989AB187DB97100966C66 /* OSKApplicationCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKApplicationCredential.m; sourceTree = "<group>"; };
 		727989AC187DB97100966C66 /* OSKAuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKAuthenticationViewController.h; sourceTree = "<group>"; };
@@ -481,10 +447,6 @@
 		727989E4187DB97200966C66 /* OSKPinboardActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPinboardActivity.m; sourceTree = "<group>"; };
 		727989E5187DB97200966C66 /* OSKPinboardUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPinboardUtility.h; sourceTree = "<group>"; };
 		727989E6187DB97200966C66 /* OSKPinboardUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPinboardUtility.m; sourceTree = "<group>"; };
-		727989E7187DB97200966C66 /* OSKPocketAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPocketAccountViewController.h; sourceTree = "<group>"; };
-		727989E8187DB97200966C66 /* OSKPocketAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPocketAccountViewController.m; sourceTree = "<group>"; };
-		727989E9187DB97200966C66 /* OSKPocketActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPocketActivity.h; sourceTree = "<group>"; };
-		727989EA187DB97200966C66 /* OSKPocketActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPocketActivity.m; sourceTree = "<group>"; };
 		727989EB187DB97200966C66 /* OSKPresentationColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPresentationColor.h; sourceTree = "<group>"; };
 		727989ED187DB97200966C66 /* OSKPresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKPresentationManager.h; sourceTree = "<group>"; };
 		727989EE187DB97200966C66 /* OSKPresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKPresentationManager.m; sourceTree = "<group>"; };
@@ -553,6 +515,7 @@
 		7FEE7636181ED83D000F684A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FEE764B181ED83D000F684A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F6372A9072146CEA4538CE3 /* libPods-Overshare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Overshare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C7B683CCD2A8C0BAC1B0D5 /* Pods-Overshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overshare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Overshare/Pods-Overshare.debug.xcconfig"; sourceTree = "<group>"; };
 		F2DDB18219196AD00051DAF8 /* OSKWhastappActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKWhastappActivity.h; sourceTree = "<group>"; };
 		F2DDB18319196AD00051DAF8 /* OSKWhastappActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKWhastappActivity.m; sourceTree = "<group>"; };
 		F2DDB185191970110051DAF8 /* whatsapp-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-76@2x.png"; sourceTree = "<group>"; };
@@ -576,6 +539,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3598C6647897B836A358916D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6C7B683CCD2A8C0BAC1B0D5 /* Pods-Overshare.debug.xcconfig */,
+				2C17D66F19B6AC83A6350DFF /* Pods-Overshare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		72670B5318906CAB00056736 /* Social Composer */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,11 +629,6 @@
 				72798913187DB97100966C66 /* osk-airDropIcon-60@2x.png */,
 				72798914187DB97100966C66 /* osk-airDropIcon-76.png */,
 				72798915187DB97100966C66 /* osk-airDropIcon-76@2x.png */,
-				72798916187DB97100966C66 /* osk-appDotNetIcon-29.png */,
-				72798917187DB97100966C66 /* osk-appDotNetIcon-29@2x.png */,
-				72798918187DB97100966C66 /* osk-appDotNetIcon-60@2x.png */,
-				72798919187DB97100966C66 /* osk-appDotNetIcon-76.png */,
-				7279891A187DB97100966C66 /* osk-appDotNetIcon-76@2x.png */,
 				7279891B187DB97100966C66 /* osk-appStoreIcon-76.png */,
 				7279891C187DB97100966C66 /* osk-appStoreIcon-76@2x.png */,
 				7279891D187DB97100966C66 /* osk-copyIcon-purple-29@2x.png */,
@@ -722,11 +689,6 @@
 				72798954187DB97100966C66 /* osk-twitterIcon-60@2x.png */,
 				72798955187DB97100966C66 /* osk-twitterIcon-76.png */,
 				72798956187DB97100966C66 /* osk-twitterIcon-76@2x.png */,
-				72798957187DB97100966C66 /* Pocket-Icon-29.png */,
-				72798958187DB97100966C66 /* Pocket-Icon-29@2x.png */,
-				72798959187DB97100966C66 /* Pocket-Icon-60@2x.png */,
-				7279895A187DB97100966C66 /* Pocket-Icon-76.png */,
-				7279895B187DB97100966C66 /* Pocket-Icon-76@2x.png */,
 				7279895C187DB97100966C66 /* Riposte-Icon-60@2x.png */,
 				7279895D187DB97100966C66 /* Riposte-Icon-76.png */,
 				7279895E187DB97100966C66 /* Riposte-Icon-76@2x.png */,
@@ -776,7 +738,6 @@
 			children = (
 				72798AFD187DBE7D00966C66 /* 1Password (Browser) */,
 				72798AFC187DBE6A00966C66 /* 1Password (Search) */,
-				72798AFB187DBE4E00966C66 /* App.net */,
 				72798AFA187DBE3D00966C66 /* Airdrop */,
 				72798AF9187DBE1900966C66 /* Chrome */,
 				72798AF8187DBDFA00966C66 /* Copy to Pasteboard */,
@@ -785,7 +746,6 @@
 				72798AF3187DBD7900966C66 /* Instapaper */,
 				72798AF2187DBD5300966C66 /* Omnifocus */,
 				72798AF1187DBD3E00966C66 /* Pinboard */,
-				72798AEF187DBD2700966C66 /* Pocket */,
 				72798AEE187DBD1000966C66 /* Readability */,
 				72798AED187DBCFC00966C66 /* Safari */,
 				72798AEC187DBCE800966C66 /* SMS */,
@@ -841,15 +801,6 @@
 				727989F7187DB97200966C66 /* OSKReadabilityUtility.m */,
 			);
 			name = Readability;
-			sourceTree = "<group>";
-		};
-		72798AEF187DBD2700966C66 /* Pocket */ = {
-			isa = PBXGroup;
-			children = (
-				727989E9187DB97200966C66 /* OSKPocketActivity.h */,
-				727989EA187DB97200966C66 /* OSKPocketActivity.m */,
-			);
-			name = Pocket;
 			sourceTree = "<group>";
 		};
 		72798AF1187DBD3E00966C66 /* Pinboard */ = {
@@ -926,19 +877,6 @@
 				7279899F187DB97100966C66 /* OSKAirDropActivity.m */,
 			);
 			name = Airdrop;
-			sourceTree = "<group>";
-		};
-		72798AFB187DBE4E00966C66 /* App.net */ = {
-			isa = PBXGroup;
-			children = (
-				7279899C187DB97100966C66 /* OSKADNLoginManager.h */,
-				7279899D187DB97100966C66 /* OSKADNLoginManager.m */,
-				727989A4187DB97100966C66 /* OSKAppDotNetActivity.h */,
-				727989A5187DB97100966C66 /* OSKAppDotNetActivity.m */,
-				727989A8187DB97100966C66 /* OSKAppDotNetUtility.h */,
-				727989A9187DB97100966C66 /* OSKAppDotNetUtility.m */,
-			);
-			name = App.net;
 			sourceTree = "<group>";
 		};
 		72798AFC187DBE6A00966C66 /* 1Password (Search) */ = {
@@ -1048,8 +986,6 @@
 		72798B05187DBF8F00966C66 /* App.net */ = {
 			isa = PBXGroup;
 			children = (
-				727989A6187DB97100966C66 /* OSKAppDotNetAuthenticationViewController.h */,
-				727989A7187DB97100966C66 /* OSKAppDotNetAuthenticationViewController.m */,
 			);
 			name = App.net;
 			sourceTree = "<group>";
@@ -1125,8 +1061,6 @@
 				7279897F187DB97100966C66 /* OSKAccountTypeCell.m */,
 				7279899A187DB97100966C66 /* OSKActivityToggleCell.h */,
 				7279899B187DB97100966C66 /* OSKActivityToggleCell.m */,
-				727989E7187DB97200966C66 /* OSKPocketAccountViewController.h */,
-				727989E8187DB97200966C66 /* OSKPocketAccountViewController.m */,
 			);
 			name = "Account Management";
 			sourceTree = "<group>";
@@ -1232,7 +1166,7 @@
 				7FEE7638181ED83D000F684A /* Sample App Files */,
 				7FEE7631181ED83D000F684A /* Frameworks */,
 				7FEE7630181ED83D000F684A /* Products */,
-				6649A76ED6254C548DFF6344 /* Pods-Overshare.xcconfig */,
+				3598C6647897B836A358916D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1345,11 +1279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				72798A67187DB97300966C66 /* osk-navbarButton-disabled@2x.png in Resources */,
-				72798A41187DB97300966C66 /* osk-appDotNetIcon-60@2x.png in Resources */,
 				727988F0187DB91700966C66 /* Icon-76.png in Resources */,
 				72798A7E187DB97300966C66 /* osk-twitterIcon-76.png in Resources */,
 				72798A75187DB97300966C66 /* osk-readabilityIcon-29@2x.png in Resources */,
-				72798A43187DB97300966C66 /* osk-appDotNetIcon-76@2x.png in Resources */,
 				72798A5C187DB97300966C66 /* osk-iconMask-bw-29@2x.png in Resources */,
 				72798A6A187DB97300966C66 /* osk-navbarButton.png in Resources */,
 				727988F5187DB91700966C66 /* Overshare-Info.plist in Resources */,
@@ -1379,14 +1311,11 @@
 				72798A65187DB97300966C66 /* osk-messagesIcon-76@2x.png in Resources */,
 				72798A36187DB97300966C66 /* Instapaper-Icon-60@2x.png in Resources */,
 				72798A55187DB97300966C66 /* osk-iap-badge-60@2x.png in Resources */,
-				72798A81187DB97300966C66 /* Pocket-Icon-29@2x.png in Resources */,
 				72798A3A187DB97300966C66 /* Omnifocus-Icon-72.png in Resources */,
 				727988FC187DB91700966C66 /* soda.jpg in Resources */,
-				72798A40187DB97300966C66 /* osk-appDotNetIcon-29@2x.png in Resources */,
 				72798A44187DB97300966C66 /* osk-appStoreIcon-76.png in Resources */,
 				72798A31187DB97300966C66 /* Chrome-Icon-76.png in Resources */,
 				72798A4F187DB97300966C66 /* osk-facebookIcon-76.png in Resources */,
-				72798A83187DB97300966C66 /* Pocket-Icon-76.png in Resources */,
 				72798A35187DB97300966C66 /* Instapaper-Icon-29@2x.png in Resources */,
 				72798A2B187DB97300966C66 /* 1Password-Icon-60@2x.png in Resources */,
 				72798A77187DB97300966C66 /* osk-readabilityIcon-76.png in Resources */,
@@ -1401,17 +1330,14 @@
 				72798A48187DB97300966C66 /* osk-copyIcon-purple-76.png in Resources */,
 				72798A5A187DB97300966C66 /* osk-icon-border-76@2x.png in Resources */,
 				727988D2187DB70F00966C66 /* Podfile in Resources */,
-				72798A80187DB97300966C66 /* Pocket-Icon-29.png in Resources */,
 				72798A4D187DB97300966C66 /* osk-copyIcon-yellow-76@2x.png in Resources */,
 				72798A71187DB97300966C66 /* osk-pinboardIcon-60@2x.png in Resources */,
 				72798AC3187DB97300966C66 /* OSKMicroblogPublishingViewController.xib in Resources */,
 				72798A9D187DB97300966C66 /* OSKActivityCollectionViewCell.xib in Resources */,
 				727988D4187DB75A00966C66 /* OvershareKit.podspec in Resources */,
 				72798A39187DB97300966C66 /* Omnifocus-Icon-60@2x.png in Resources */,
-				72798A84187DB97300966C66 /* Pocket-Icon-76@2x.png in Resources */,
 				72798A6C187DB97300966C66 /* osk-photosIcon-60@2x.png in Resources */,
 				72798A38187DB97300966C66 /* Instapaper-Icon-76@2x.png in Resources */,
-				72798A3F187DB97300966C66 /* osk-appDotNetIcon-29.png in Resources */,
 				F2DDB18C191970110051DAF8 /* whatsapp-76.png in Resources */,
 				72798A7D187DB97300966C66 /* osk-twitterIcon-60@2x.png in Resources */,
 				72798A64187DB97300966C66 /* osk-messagesIcon-76.png in Resources */,
@@ -1442,7 +1368,6 @@
 				72798A51187DB97300966C66 /* osk-flickrIcon-60@2x.png in Resources */,
 				727988EE187DB91700966C66 /* InfoPlist.strings in Resources */,
 				727988EF187DB91700966C66 /* Icon-60@2x.png in Resources */,
-				72798A82187DB97300966C66 /* Pocket-Icon-60@2x.png in Resources */,
 				F2DDB18A191970110051DAF8 /* whatsapp-60@2x.png in Resources */,
 				72798A50187DB97300966C66 /* osk-facebookIcon-76@2x.png in Resources */,
 				72798A4B187DB97300966C66 /* osk-copyIcon-yellow-60@2x.png in Resources */,
@@ -1451,7 +1376,6 @@
 				72798A89187DB97300966C66 /* Things-Icon-76.png in Resources */,
 				72798A3C187DB97300966C66 /* osk-airDropIcon-60@2x.png in Resources */,
 				72798A6B187DB97300966C66 /* osk-navbarButton@2x.png in Resources */,
-				72798A42187DB97300966C66 /* osk-appDotNetIcon-76.png in Resources */,
 				72798A34187DB97300966C66 /* Instapaper-Icon-29.png in Resources */,
 				72798A4E187DB97300966C66 /* osk-facebookIcon-60@2x.png in Resources */,
 				72798A7F187DB97300966C66 /* osk-twitterIcon-76@2x.png in Resources */,
@@ -1481,7 +1405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Overshare-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Overshare/Pods-Overshare-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7278E40F1892AC8100D36676 /* ShellScript */ = {
@@ -1534,7 +1458,6 @@
 				72798AB8187DB97300966C66 /* OSKInMemoryImageCache.m in Sources */,
 				72798AC6187DB97300966C66 /* OSKOmnifocusActivity.m in Sources */,
 				72798AC9187DB97300966C66 /* OSKPinboardUtility.m in Sources */,
-				72798AAA187DB97300966C66 /* OSKAppDotNetActivity.m in Sources */,
 				72798AAF187DB97300966C66 /* OSKChromeActivity.m in Sources */,
 				72798A8F187DB97300966C66 /* NSDictionary+OSKModel.m in Sources */,
 				727988F3187DB91700966C66 /* main.m in Sources */,
@@ -1557,7 +1480,6 @@
 				72798AC4187DB97300966C66 /* OSKNavigationController.m in Sources */,
 				72798AD9187DB97300966C66 /* OSKTextView.m in Sources */,
 				72798AD2187DB97300966C66 /* OSKSessionController.m in Sources */,
-				72798AA6187DB97300966C66 /* OSKADNLoginManager.m in Sources */,
 				72798A94187DB97300966C66 /* OSK1PasswordBrowserActivity.m in Sources */,
 				72798A97187DB97300966C66 /* OSKAccountManagementViewController.m in Sources */,
 				72798AD7187DB97300966C66 /* OSKSMSActivity.m in Sources */,
@@ -1570,10 +1492,8 @@
 				727988F7187DB91700966C66 /* SampleAppPurchasingViewController.m in Sources */,
 				72670B5618906CC100056736 /* OSKSocialComposeViewController.m in Sources */,
 				72798ADC187DB97300966C66 /* OSKTwitterText.m in Sources */,
-				72798ACB187DB97300966C66 /* OSKPocketActivity.m in Sources */,
 				72798AE4187DB97300966C66 /* UIImage+OSKUtilities.m in Sources */,
 				72798A93187DB97300966C66 /* NSString+OSKDerp.m in Sources */,
-				72798AAC187DB97300966C66 /* OSKAppDotNetUtility.m in Sources */,
 				72798AD5187DB97300966C66 /* OSKShareableContent.m in Sources */,
 				72798AA8187DB97300966C66 /* OSKAirDropViewController.m in Sources */,
 				72798A8D187DB97300966C66 /* NSData+OSKDerp.m in Sources */,
@@ -1582,7 +1502,6 @@
 				72798A9B187DB97300966C66 /* OSKActivity.m in Sources */,
 				72798ACD187DB97300966C66 /* OSKReadabilityActivity.m in Sources */,
 				727988F9187DB91700966C66 /* SampleTimelineCell.m in Sources */,
-				72798ACA187DB97300966C66 /* OSKPocketAccountViewController.m in Sources */,
 				72798ABD187DB97300966C66 /* OSKMailComposeViewController.m in Sources */,
 				72798AC5187DB97300966C66 /* OSKOAuthUtility.m in Sources */,
 				72798AD3187DB97300966C66 /* OSKSessionController_Pad.m in Sources */,
@@ -1590,7 +1509,6 @@
 				72798AE0187DB97300966C66 /* OSKUsernamePasswordViewController.m in Sources */,
 				727988F4187DB91700966C66 /* OSKAppDelegate.m in Sources */,
 				72798AA1187DB97300966C66 /* OSKActivityIndicatorItem.m in Sources */,
-				72798AAB187DB97300966C66 /* OSKAppDotNetAuthenticationViewController.m in Sources */,
 				72798AD0187DB97300966C66 /* OSKSafariActivity.m in Sources */,
 				72798A9F187DB97300966C66 /* OSKActivityCollectionViewController.m in Sources */,
 				72798ADF187DB97300966C66 /* OSKUsernamePasswordCell.m in Sources */,
@@ -1715,7 +1633,7 @@
 		};
 		7FEE765C181ED83D000F684A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6649A76ED6254C548DFF6344 /* Pods-Overshare.xcconfig */;
+			baseConfigurationReference = C6C7B683CCD2A8C0BAC1B0D5 /* Pods-Overshare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1731,7 +1649,7 @@
 		};
 		7FEE765D181ED83D000F684A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6649A76ED6254C548DFF6344 /* Pods-Overshare.xcconfig */;
+			baseConfigurationReference = 2C17D66F19B6AC83A6350DFF /* Pods-Overshare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

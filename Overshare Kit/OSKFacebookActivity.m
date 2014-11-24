@@ -13,7 +13,7 @@
 #import "OSKApplicationCredential.h"
 #import "OSKLocalizedStrings.h"
 
-#import <Facebook.h>
+#import <Facebook-iOS-SDK/FacebookSDK/FacebookSDK.h>
 
 static NSInteger OSKFacebookActivity_MaxCharacterCount = 6000;
 static NSInteger OSKFacebookActivity_MaxUsernameLength = 20;
